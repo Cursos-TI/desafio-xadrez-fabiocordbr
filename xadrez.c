@@ -9,6 +9,7 @@ int main() {
     int bispo = 5;
     int torre = 5;
     int rainha = 5;
+    int cavalo;
 
     //estrutura de repetição para o movimento do bispo
     printf("\n");
@@ -41,6 +42,24 @@ int main() {
         printf("Esquerda\n");
         rainha--;
     } while (rainha > 0 && rainha < 8);
+
+    //movimento do cavalo
+    printf("\n");
+    printf("Cavalo\n");
+    printf("\n");
+    
+    for (cavalo = 1; cavalo <= 2; cavalo++)
+    {
+        printf("baixo\n");
+        
+        while (cavalo == 2)
+        {
+            printf("Esquerda\n");
+            cavalo++;
+        }
+        
+    }
+    
     
     
     return 0;
